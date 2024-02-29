@@ -99,7 +99,7 @@ with gr.Blocks() as demo:
                 label="Quick Examples",
                 examples=examples,
                 inputs=[prompt, num_inference_steps, 0, 0.3],
-                outputs="outputs",  # 适当调整此处
+                outputs="outputs",
                 cache_examples=False
             )
 
