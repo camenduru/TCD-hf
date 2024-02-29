@@ -1,9 +1,14 @@
+---
+license: mit
+title: TCD
+sdk: gradio
+emoji: 📈
+colorFrom: red
+colorTo: green
+short_description: Official Demo Space for Trajectory Consistency Distillation
+---
 # Trajectory Consistency Distillation
 
-[![Arxiv](https://img.shields.io/badge/arXiv-2211.15744-b31b1b)]()
-[![Project page](https://img.shields.io/badge/Web-Project%20Page-green)](https://mhh0318.github.io/tcd)
-[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Model-purple)](https://huggingface.co/h1t/TCD-SDXL-LoRA)
-[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Space-blue)](https://huggingface.co/spaces/h1t/TCD-SDXL-LoRA)
 
 Official Repository of the paper: [Trajectory Consistency Distillation]()
 
