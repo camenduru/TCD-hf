@@ -1,6 +1,6 @@
-diffusers==0.23.1
-transformers==4.35.2
-accelerate==0.24.1
+diffusers
+transformers
+accelerate
 gradio
-pydantic==1.10.13
-spacy==3.7.2
+pydantic
+spacy
