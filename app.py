@@ -52,7 +52,7 @@ description = "<h3>Official 🤗 Gradio demo for Trajectory Consistency Distilla
 article = "<p style='text-align: center'><a href='https://arxiv.org/abs/' target='_blank'>Trajectory Consistency Distillation</a> | <a href='https://github.com/jabir-zheng/TCD' target='_blank'>Github Repo</a></p>"
 
 
-default_prompt = "Painting of the orange cat Otto von Garfield, Count of Bismarck-Schönhausen, Duke of Lauenburg, Minister-President of Prussia. Depicted wearing a Prussian Pickelhaube and eating his favorite meal - lasagna."
+default_prompt = " "
 examples = [
     [
         "Beautiful woman, bubblegum pink, lemon yellow, minty blue, futuristic, high-detail, epic composition, watercolor.",
@@ -84,7 +84,7 @@ with gr.Blocks(css=css) as demo:
                 label='Inference steps',
                 minimum=4,
                 maximum=16,
-                value=4,
+                value=8,
                 step=1,
             )
             
