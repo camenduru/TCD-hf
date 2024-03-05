@@ -1,5 +1,4 @@
 import random
-import spaces
 import gradio as gr
 import torch
 from diffusers import StableDiffusionXLPipeline
@@ -31,7 +30,6 @@ pipe.scheduler = TCDScheduler.from_config(pipe.scheduler.config)
 pipe.load_lora_weights(tcd_lora_id)
 pipe.fuse_lora()
 
-@spaces.GPU
 def inference(prompt, num_inference_steps=4, seed=-1, eta=0.3):
     if seed is None or seed == '' or seed == -1:
         seed = int(random.randrange(4294967294))
