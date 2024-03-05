@@ -125,4 +125,4 @@ with gr.Blocks(css=css) as demo:
         outputs=outputs,
     )
 
-demo.launch()
+demo.launch(share=True)
